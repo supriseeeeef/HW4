@@ -3,8 +3,8 @@
 Виведи результат у консоль.
 */
 
-// let getUserAge = +prompt("Enter your age:")
-// console.log(getUserAge + 5)
+let getUserAge = +prompt("Enter your age:")
+console.log(getUserAge + 5)
 
 
 /*
@@ -12,9 +12,9 @@
 Використай логічні оператори «І» (&&), «АБО» (||) та «НЕ» (!).
 */
 
-// let getUserNumber = Number(prompt("Enter number:"))
-// const calculate = getUserNumber > 10 && getUserNumber % 2 === 0 ? "Так" : "Ні"
-// console.log(calculate)
+let getUserNumber2 = Number(prompt("Enter number:"))
+const calculate = getUserNumber2 > 10 && getUserNumber2 % 2 === 0 ? "Так" : "Ні"
+console.log(calculate)
 
 
 /*
@@ -22,9 +22,9 @@
 Якщо число більше за 50, виведи "Число більше 50", інакше виведи "Число менше або дорівнює 50".
 */
 
-// let getUserNumber = Number(prompt("Enter number:"))
-// let calculate = getUserNumber > 50 ? "Число більше 50" : "Число менше або дорівнює 50";
-// console.log(calculate)
+let getUserNumber1 = Number(prompt("Enter number:"))
+let calculate1 = getUserNumber1 > 50 ? "Число більше 50" : "Число менше або дорівнює 50";
+console.log(calculate1)
 
 
 /* 
@@ -36,20 +36,20 @@
 - "Відмінно" для 5.
 */
 
-// let getUserNumber = Number(prompt("Введіть оцінку (від 1 до 5)"));
-// if (getUserNumber === 1) {
-//     console.log("Дуже погано");
-// } else if (getUserNumber === 2) {
-//     console.log("Погано");
-// } else if (getUserNumber === 3) {
-//     console.log("Задовільно");
-// } else if (getUserNumber === 4) {
-//     console.log("Добре");
-// } else if (getUserNumber === 5) {
-//     console.log("Відмінно");
-// } else {
-//     alert("Введіть правильне число (від 1 до 5)");
-// }
+let getUserNumber = Number(prompt("Введіть оцінку (від 1 до 5)"));
+if (getUserNumber === 1) {
+    console.log("Дуже погано");
+} else if (getUserNumber === 2) {
+    console.log("Погано");
+} else if (getUserNumber === 3) {
+    console.log("Задовільно");
+} else if (getUserNumber === 4) {
+    console.log("Добре");
+} else if (getUserNumber === 5) {
+    console.log("Відмінно");
+} else {
+    alert("Введіть правильне число (від 1 до 5)");
+}
 
 
 /*
@@ -59,6 +59,6 @@
 Використай тернарний оператор.
 */
 
-// let getUserName = prompt("Введіть Ім'я:") || "Гість";
-// const result = getUserName === "Адмін" ? "Вітаю, Адмін!" : `Привіт, ${getUserName}!`;
-// alert(result);
+let getUserName = prompt("Введіть Ім'я:") || "Гість";
+const result = getUserName === "Адмін" ? "Вітаю, Адмін!" : `Привіт, ${getUserName}!`;
+alert(result);
